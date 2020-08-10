@@ -1,0 +1,20 @@
+.selector{
+    color: #fff;
+    font-size: 30px;
+    text-align:center;
+    border: solid 5px green;
+
+    /* funções */
+    width: calc(100% - 40px);
+    background-color: rgb(45, 150, 80);
+}
+/* Usando uma pseudo-classe */
+
+.selector:hover{
+    background-color: #fff;
+    color:green;
+}
+ /* Usando pseudo elemento */
+ .selector::first-letter{
+     font-size: 70px;
+ }
