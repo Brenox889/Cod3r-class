@@ -6,7 +6,18 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* *: seleciona todos elementos
+           id: seleciona um especifico
+           elemento > elemento: seleciona filho direto
+           elemento1 + elemento2: seleciona se elemento2 estiver logo em seguida de elemento1
+           e1 ~ e2: seleciona e2 se esse vir depois de e1 e ambos forem irmãos
+           [e*=nota]: procura se o atributo contem nota escrito
+           span:nth-child(1): pega o elemento span se esse for primeiro filho de alguém
+           section > :nth-child(even): busca os filhos pares                      
+           section > :nth-child(odd): busca os filhos impares
+           section > span:nth-of-type(2): busca o segundo span dentro de section
+   
+        */
     </style>
 </head>
 
