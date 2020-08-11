@@ -25,7 +25,7 @@ document.querySelectorAll('.tag').forEach(elemento =>{
 
     if(!elemento.classList.contains('nolabel')){
         const label = document.createElement('label')
-        label.style.backgroundColor = get(tagName)
+        label.style.backgroundColor = colors.get(tagName)
         label.innerHTML = tagName
         elemento.insertBefore(label, elemento.childNodes[0])
     }
